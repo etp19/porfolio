@@ -69,7 +69,7 @@ img, embed, object, video {
     margin: auto 0;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 450px) {
 
     .text-thin, .position{
 
