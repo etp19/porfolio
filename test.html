@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <title>Eduardo Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/over500.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-md-6 col-sm-4 col-xs-12">
+                <img class="title-logo" src="images/Udacity_Logo.svg" alt="Udacity Logo">
+            </div>
+            <div class="col-md-6 col-sm-8 col-xs-12 text-right text-uppercase">
+                <h1 class="title-super text-thin">Eduardo Torres</h1>
+                <h2 class="position">Front-End Ninja</h2>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <picture>
+                    <source media="(min-width: 1000px)" srcset="images/X2.jpg">
+                    <source media="(min-width: 700px)" srcset="images/ipad.jpg">
+                    <source media="(max-width: 360px)" srcset="images/phone.png">
+                    <img class="img-responsive center-block" src="images/X2.jpg" alt="Main picture">
+
+                </picture>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img class="img-responsive hvr-grow img-left" src="images/PhotoShop_Tito_Image.png" alt="Trailer Website" data-toggle="modal" data-target="#myModal">
+                <h3>Movie Trailer</h3>
+                <p><a href="http://github.com/udacity/project">http://github.com/udacity/project</a></p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive hvr-grow" src="images/portfolio.png" alt="Portfolio Project" data-toggle="modal" data-target="#myModal-2">
+                <h3>Portfolio</h3>
+                <p><a href="http://github.com/udacity/project">http://github.com/udacity/project</a></p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive hvr-grow img-right" src="images/img-right.jpg" alt="Project Coming Soon" data-toggle="modal" data-target="#myModal-3">
+                <h3>Projects</h3>
+                <p><a href="http://github.com/udacity/project">http://github.com/udacity/project</a></p>
+            </div>
+        </div>
+        <footer class="row">
+            <div class="col-md-12 text-center contacts">
+                <hr>
+                <a href="https://www.facebook.com/torresperez.eduardo" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+                <a href="https://github.com/etp19/" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+                <a href="https://www.instagram.com/etp19/?hl=en" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
+            </div>
+        </footer>
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel_1">Movie Trailer</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/PhotoShop_Tito_Image.png" alt="Movie Trailer"> This was my first project in this class. I learned a lot about python and object oriented by doing a movie trailer website.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModal-2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel_2">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/portfolio.png" alt="Portfolio Project"> This was my second Project project in this class. I learned a lot about HTML and CSS and web framework such as bootstrap and finally I learn how to make responsive websites.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModal-3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel_3">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/img-right.jpg" alt="Project Coming Soon"> This project is still in production and it will be about making a blog site.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
